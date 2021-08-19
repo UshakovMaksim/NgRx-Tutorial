@@ -1,0 +1,6 @@
+<button (click)="inc()">Increase</button>
+<button (click)="dec()">Decrease</button>
+<br>
+<p>Current counter: {{ count$ | async | json }}</p>
+<br>
+<button (click)="reset()">Reset</button>
