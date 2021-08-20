@@ -1,1 +1,1 @@
-export const ExtStoreDevtoolsModuleProd = [];
+export const ExtStoreDevtoolsModule = [];
