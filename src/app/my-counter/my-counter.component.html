@@ -1,6 +1,6 @@
-<button (click)="inc()">Increase</button>
-<button (click)="dec()">Decrease</button>
+<button data-id="btn_increment" (click)="inc()">Increase</button>
+<button data-id="btn_decrement" (click)="dec()">Decrease</button>
 <br>
-<p>Current counter: {{ count$ | async | json }}</p>
+<p data-id="counter_field">Current counter: {{ count$ | async | json }}</p>
 <br>
-<button (click)="reset()">Reset</button>
+<button data-id="btn_reset" (click)="reset()">Reset</button>
