@@ -55,8 +55,8 @@
                   "with": "src/environments/environment.prod.ts"
                 },
                 {
-                  "replace": "src/app/build-specifics/extModules.ts",
-                  "with": "src/app/build-specifics/extModules.prod.ts"
+                  "replace": "src/app/build-specifics/extStoreDevtoolsModule.ts",
+                  "with": "src/app/build-specifics/extStoreDevtoolsModule.prod.ts"
                 }
               ],
               "outputHashing": "all"
